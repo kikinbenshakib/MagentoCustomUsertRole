@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+     <add id="Kikinbenrole_CustomMenu::menu" title="Custom Menu" module="Kikinbenrole_CustomMenu" sortOrder="10" resource="Kikinbenrole_CustomMenu::create"/>
+     <add id="Kikinbenrole_CustomMenu::menu_item" title="Manage Items" module="Kikinbenrole_CustomMenu" sortOrder="10" parent="Kikinbenrole_CustomMenu::menu" action="custommenu/create/index" resource="Kikinbenrole_CustomMenu::menu_item"/>
+     <add id="Kikinbenrole_CustomMenu::menu_configuration" title="Setting" module="Kikinbenrole_CustomMenu" sortOrder="20" parent="Kikinbenrole_CustomMenu::menu" action="adminhtml/system_config/edit/section/menu" resource="Kikinbenrole_CustomMenu::menu_configuration"/>
+    </menu>
+</config>
