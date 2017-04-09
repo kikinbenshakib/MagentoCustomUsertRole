@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<kikinbenshipping>
+				<model>KikinbenShipping\CustomsShipping\Model\Carrier\KikinbenShipping</model>
+				<active>0</active>
+				<title>KikinbenShipping</title>
+				<name>KikinbenShipping</name>
+				<price>0.00</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</kikinbenshipping>
+			<cod>
+				<model>KikinbenShipping\CustomsShipping\Model\Carrier\COD</model>
+				<active>0</active>
+				<title>COD</title>
+				<name>COD</name>
+				<price>0.00</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>0</sallowspecific>
+			</cod>
+		</carriers>
+	</default>
+</config>

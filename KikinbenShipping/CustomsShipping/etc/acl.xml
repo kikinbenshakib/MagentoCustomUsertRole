@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="KikinbenShipping_CustomsShipping::customshipping" sortOrder="10" title="customshipping">
+					<resource id="KikinbenShipping_CustomsShipping::customshipping_save" sortOrder="10" title="Save customshipping"/>
+					<resource id="KikinbenShipping_CustomsShipping::customshipping_delete" sortOrder="20" title="Delete customshipping"/>
+					<resource id="KikinbenShipping_CustomsShipping::customshipping_update" sortOrder="30" title="Update customshipping"/>
+					<resource id="KikinbenShipping_CustomsShipping::customshipping_view" sortOrder="40" title="View customshipping"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>

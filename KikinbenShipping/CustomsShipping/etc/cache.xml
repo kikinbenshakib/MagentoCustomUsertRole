@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
+	<type instance="KikinbenShipping\CustomsShipping\Model\Cache\CustomShipping" name="customshipping_cache_tag" translate="label,description">
+		<label>CustomShipping</label>
+		<description/>
+	</type>
+</config>

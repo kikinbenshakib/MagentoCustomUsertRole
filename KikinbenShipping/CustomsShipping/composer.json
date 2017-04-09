@@ -1,0 +1,21 @@
+{
+    "name": "kikinbenshipping/module-customsshipping",
+    "description": "Kikinben Custom Shipping Policy",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "KikinbenShipping\\CustomsShipping\\": ""
+        }
+    }
+}
